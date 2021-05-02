@@ -20,7 +20,7 @@ button:hover {
 
 /*文字*/
 
-h1,h2,h3,h4,h5,p,code,pre{
+code:hover{
 	cursor: url(https://cdn.jsdelivr.net/gh/EmoryHuang/BlogBeautify/launa/IBeam.cur), auto;
 }
 
