@@ -1,0 +1,98 @@
+
+/*评论区增加背景图片*/
+#veditor {
+	background-image: url(https://cdn.jsdelivr.net/gh/drew233/cdn/20200409110727.webp);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: right;
+	background-color: rgba(255, 255, 255, 0);
+	resize: vertical
+}
+#veditor:focus{
+	background-position-y: 200px;
+	transition: all 0.2s ease-in-out 0s;
+}
+/*鼠标放置头像旋转*/
+img.vimg {
+     transition: all 1s   /* 旋转时间为 1s */
+}
+/*评论卡片式背景*/
+img.vimg:hover {
+     transform: rotate(360deg);
+     -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+     -o-transform: rotate(360deg);
+     -ms-transform: rotate(360deg);
+}
+#vcomments .vcards .vcard {
+	padding: 15px 20px 0 20px;
+	border-radius: 10px;
+	margin-bottom: 15px;
+	box-shadow: 0 0 4px 1px rgba(0, 0, 0, .12);
+	transition: all .3s
+}
+#vcomments .vcards .vcard:hover {
+	box-shadow: 0 0 8px 3px rgba(0, 0, 0, .12)
+}
+#vcomments .vcards .vcard .vh .vcard {
+	border: none;
+	box-shadow: none;
+}
+
+/*github badge*/
+.github-badge-div {
+	text-align:center;
+}
+.github-badge {
+	display: inline-block;
+	border-radius: 4px;
+	text-shadow: none;
+	font-size: 11px;
+	color: #fff;
+	line-height: 15px;
+	background-color: #ABBAC3;
+  margin-bottom: 5px;
+}
+.github-badge .badge-subject {
+	display: inline-block;
+	background-color: #4D4D4D;
+	padding: 5px 4px 4px 6px;
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+.github-badge .badge-value {
+	display: inline-block;
+	padding: 5px 6px 4px 4px;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+.github-badge .bg-brightgreen {
+	background-color: #4DC820 !important;
+}
+.github-badge .bg-orange {
+	background-color: #FFA500 !important;
+}
+.github-badge .bg-yellow {
+	background-color: #D8B024 !important;
+}
+.github-badge .bg-blueviolet {
+	background-color: #8833D7 !important;
+}
+.github-badge .bg-pink {
+	background-color: #F26BAE !important;
+}
+.github-badge .bg-red {
+	background-color: #e05d44 !important;
+}
+.github-badge .bg-blue {
+	background-color: #007EC6 !important;
+}
+.github-badge .bg-lightgrey {
+	background-color: #9F9F9F !important;
+}
+.github-badge .bg-grey, .github-badge .bg-gray {
+	background-color: #555 !important;
+}
+.github-badge .bg-lightgrey, .github-badge .bg-lightgray {
+	background-color: #9f9f9f !important;
+}
