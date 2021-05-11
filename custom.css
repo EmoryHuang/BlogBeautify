@@ -1,4 +1,6 @@
-
+code{
+	color: #C7254E;
+}
 /*评论区增加背景图片*/
 #veditor {
 	background-image: url(https://cdn.jsdelivr.net/gh/drew233/cdn/20200409110727.webp);
