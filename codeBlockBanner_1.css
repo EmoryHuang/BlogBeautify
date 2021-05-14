@@ -1,8 +1,9 @@
 .highlight-wrap[data-rel] {
-  background: #21252b;
+  position: relative;
+  overflow: hidden;
   border-radius: 5px;
-  box-shadow: 0 10px 30px 0 rgba(0, 0, 0, .4);
-  padding-top: 30px;
+  box-shadow: 0 10px 30px 0px rgba(0, 0, 0, 0.4);
+  margin: 35px 0;
 }
 .highlight-wrap[data-rel]::before {
   color: white;
