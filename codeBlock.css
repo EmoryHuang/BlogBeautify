@@ -9,7 +9,13 @@
   background: #fc625d;
   border-radius: 50%;
   box-shadow: 20px 0 #fdbc40, 40px 0 #35cd4b;
-  content: ' ';
+  content: attr(data-rel);
+  white-space: nowrap;
+  color: white;
+  text-indent: 70px;
+  line-height: 13px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
   height: 12px;
   left: 12px;
   margin-top: -20px;
