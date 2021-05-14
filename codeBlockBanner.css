@@ -1,17 +1,24 @@
-.highlight-wrap {
+.highlight-wrap[data-rel] {
   background: #21252b;
   border-radius: 5px;
   box-shadow: 0 10px 30px 0 rgba(0, 0, 0, .4);
   padding-top: 30px;
 }
-.highlight-wrap::before {
-  background: #fc625d;
-  border-radius: 50%;
-  box-shadow: 20px 0 #fdbc40, 40px 0 #35cd4b;
-  content: ' ';
-  height: 12px;
-  left: 12px;
-  margin-top: -20px;
+.highlight-wrap[data-rel]::before {
+  color: white;
+  content: attr(data-rel);
+  height: 38px;
+  line-height: 38px;
+  background: #21252b;
+  color: #fff;
+  font-size: 16px;
   position: absolute;
-  width: 12px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  padding: 0px 80px;
+  text-indent: 15px;
+  float: left;
 }
