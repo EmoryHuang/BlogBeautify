@@ -98,3 +98,94 @@ img.vimg:hover {
 .github-badge .bg-lightgrey, .github-badge .bg-lightgray {
 	background-color: #9f9f9f !important;
 }
+
+
+/*无序列表*/
+.markdown-body ol,
+.markdown-body ul {
+  margin-top: 0.4rem;
+  padding: 0 0 0 0.8rem;
+  list-style: none;
+  counter-reset: li;
+}
+@media screen and (max-width: 768px) {
+  .markdown-body ol,
+  .markdown-body ul {
+    padding: 0 0 0 0.4rem;
+  }
+}
+.markdown-body ol p,
+.markdown-body ul p {
+  margin: 0 0 0.5rem;
+}
+.markdown-body ol ol,
+.markdown-body ul ol,
+.markdown-body ol ul,
+.markdown-body ul ul {
+  padding-left: 0.6rem;
+}
+@media screen and (max-width: 768px) {
+  .markdown-body ol ol,
+  .markdown-body ul ol,
+  .markdown-body ol ul,
+  .markdown-body ul ul {
+    padding-left: 0.2rem;
+  }
+}
+.markdown-body ol li:not(.tab),
+.markdown-body ul li:not(.tab) {
+  position: relative;
+  margin: 0.2rem 0;
+}
+.markdown-body ol li:hover:before,
+.markdown-body ul li:hover:before {
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+.markdown-body ol li:before,
+.markdown-body ul li:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #49b1f5;
+  color: #fff;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.markdown-body ol > li:not(.tab) {
+  padding: 0.2em 0.2em 0.2em 1.8em;
+}
+.markdown-body ol > li:before {
+  margin-top: 0.65em;
+  width: 1.45em;
+  height: 1.45em;
+  border-radius: 0.725em;
+  content: counter(li);
+  counter-increment: li;
+  text-align: center;
+  font-size: 0.85em;
+  line-height: 1.45em;
+}
+.markdown-body ul > li:not(.tab) {
+  padding: 0.2em 0.2em 0.2em 1.4em;
+}
+.markdown-body ul > li:not(.tab):hover:before {
+  border-color: #ff7242;
+}
+.markdown-body ul > li:not(.tab):before {
+  top: 0.78em;
+  width: 12px;
+  height: 10px;
+  border: 3px solid #49b1f5;
+  border-radius: 10px;
+  background: transparent;
+  content: '';
+  line-height: 10px;
+}
