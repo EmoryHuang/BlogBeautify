@@ -181,11 +181,111 @@ img.vimg:hover {
 }
 .markdown-body ul > li:not(.tab):before {
   top: 0.78em;
-  width: 12px;
+  width: 13px;
   height: 10px;
   border: 3px solid #49b1f5;
   border-radius: 10px;
   background: transparent;
   content: '';
   line-height: 10px;
+}
+
+
+/*h1 h2 h3 h4 h5 h6*/
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+.markdown-body h1:before,
+.markdown-body h2:before,
+.markdown-body h3:before,
+.markdown-body h4:before,
+.markdown-body h5:before,
+.markdown-body h6:before {
+  position: absolute;
+  top: calc(50% - 0.35rem);
+  color: #f47466;
+  content: '';
+  line-height: 1;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+.markdown-body h1:hover:before,
+.markdown-body h2:hover:before,
+.markdown-body h3:hover:before,
+.markdown-body h4:hover:before,
+.markdown-body h5:hover:before,
+.markdown-body h6:hover:before {
+  color: #49b1f5;
+}
+.markdown-body h1 code {
+  font-size: 1rem;
+}
+.markdown-body h1:before {
+  margin-left: -1.2rem;
+  font-size: 1rem;
+}
+.markdown-body h1:hover {
+  padding-left: 0.3rem;
+}
+.markdown-body h2 code {
+  font-size: 0.9rem;
+}
+.markdown-body h2:before {
+  margin-left: -1.1rem;
+  font-size: 0.9rem;
+}
+.markdown-body h2:hover {
+  padding-left: 0.3rem;
+}
+.markdown-body h3 code {
+  font-size: 0.8rem;
+}
+.markdown-body h3:before {
+  margin-left: -1rem;
+  font-size: 0.8rem;
+}
+.markdown-body h3:hover {
+  padding-left: 0.3rem;
+}
+.markdown-body h4 code {
+  font-size: 0.7rem;
+}
+.markdown-body h4:before {
+  margin-left: -0.9rem;
+  font-size: 0.7rem;
+}
+.markdown-body h4:hover {
+  padding-left: 0.3rem;
+}
+.markdown-body h5 code {
+  font-size: 0.6rem;
+}
+.markdown-body h5:before {
+  margin-left: -0.8rem;
+  font-size: 0.6rem;
+}
+.markdown-body h5:hover {
+  padding-left: 0.3rem;
+}
+.markdown-body h6 code {
+  font-size: 0.6rem;
+}
+.markdown-body h6:before {
+  margin-left: -0.8rem;
+  font-size: 0.6rem;
+}
+.markdown-body h6:hover {
+  padding-left: 0.3rem;
 }
