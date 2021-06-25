@@ -1,27 +1,27 @@
 /* 鼠标指针图标bynote.cn */
 
 body {
-    cursor: url(https://cdn.jsdelivr.net/gh/EmoryHuang/BlogBeautify@1.4/Arrow.cur), auto;
+    cursor: url(https://cdn.jsdelivr.net/gh/EmoryHuang/BlogBeautify@1.5/Arrow.cur), auto;
 }
 
 
 /*a标签*/
 
 a:hover {
-    cursor: url(https://cdn.jsdelivr.net/gh/EmoryHuang/BlogBeautify@1.4/Hand.cur), auto;
+    cursor: url(https://cdn.jsdelivr.net/gh/EmoryHuang/BlogBeautify@1.5/Hand.cur), auto;
 }
 
 
 /*按钮*/
 
 button:hover {
-    cursor: url(https://cdn.jsdelivr.net/gh/EmoryHuang/BlogBeautify@1.4/Hand.cur), auto;
+    cursor: url(https://cdn.jsdelivr.net/gh/EmoryHuang/BlogBeautify@1.5/Hand.cur), auto;
 }
 
 /*文字*/
 
 code:hover{
-	cursor: url(https://cdn.jsdelivr.net/gh/EmoryHuang/BlogBeautify@1.4/Hand.cur), auto;
+	cursor: url(https://cdn.jsdelivr.net/gh/EmoryHuang/BlogBeautify@1.5/Hand.cur), auto;
 }
 
 #rightside>div>button,
@@ -33,50 +33,50 @@ code:hover{
     color: var(--btn-color);
     text-align: center;
     font-size: 16px;
-    cursor: url(https://cdn.jsdelivr.net/gh/EmoryHuang/BlogBeautify@1.4/Hand.cur), auto;
+    cursor: url(https://cdn.jsdelivr.net/gh/EmoryHuang/BlogBeautify@1.5/Hand.cur), auto;
 }
 
 
 /* 文章标签 */
 
 .layout_post .tag_share .post-meta__tags {
-    cursor: url(https://cdn.jsdelivr.net/gh/EmoryHuang/BlogBeautify@1.4/Hand.cur), auto;
+    cursor: url(https://cdn.jsdelivr.net/gh/EmoryHuang/BlogBeautify@1.5/Hand.cur), auto;
 }
 
 
 /* 评论区 */
 
 .vcol * {
-    cursor: url(https://cdn.jsdelivr.net/gh/EmoryHuang/BlogBeautify@1.4/Hand.cur), auto;
+    cursor: url(https://cdn.jsdelivr.net/gh/EmoryHuang/BlogBeautify@1.5/Hand.cur), auto;
 }
 
 .v[data-class=v] .vicon {
-    cursor: url(https://cdn.jsdelivr.net/gh/EmoryHuang/BlogBeautify@1.4/Hand.cur), auto;
+    cursor: url(https://cdn.jsdelivr.net/gh/EmoryHuang/BlogBeautify@1.5/Hand.cur), auto;
 }
 
 .v[data-class=v] .vbtn {
-    cursor: url(https://cdn.jsdelivr.net/gh/EmoryHuang/BlogBeautify@1.4/Hand.cur), auto;
+    cursor: url(https://cdn.jsdelivr.net/gh/EmoryHuang/BlogBeautify@1.5/Hand.cur), auto;
 }
 
 
 /* 回复 */
 
 .vat {
-    cursor: url(https://cdn.jsdelivr.net/gh/EmoryHuang/BlogBeautify@1.4/Hand.cur), auto;
+    cursor: url(https://cdn.jsdelivr.net/gh/EmoryHuang/BlogBeautify@1.5/Hand.cur), auto;
 }
 
 
 /*i标签*/
 
 i:hover {
-    cursor: url(https://cdn.jsdelivr.net/gh/EmoryHuang/BlogBeautify@1.4/Hand.cur), auto;
+    cursor: url(https://cdn.jsdelivr.net/gh/EmoryHuang/BlogBeautify@1.5/Hand.cur), auto;
 }
 
 
 /*up酱*/
 
 #upj:hover {
-    cursor: url(https://cdn.jsdelivr.net/gh/EmoryHuang/BlogBeautify@1.4/Hand.cur), auto;
+    cursor: url(https://cdn.jsdelivr.net/gh/EmoryHuang/BlogBeautify@1.5/Hand.cur), auto;
 }
 
 
@@ -84,7 +84,7 @@ i:hover {
 /*分页器*/
 
 #pagination .page-number:hover {
-    cursor: url(https://cdn.jsdelivr.net/gh/EmoryHuang/BlogBeautify@1.4/Hand.cur), auto;
+    cursor: url(https://cdn.jsdelivr.net/gh/EmoryHuang/BlogBeautify@1.5/Hand.cur), auto;
 }
 /* 分页器的三个点(...) */
 .space {
