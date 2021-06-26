@@ -8,6 +8,10 @@ body {
     cursor: url(https://cdn.jsdelivr.net/gh/EmoryHuang/BlogBeautify@1.5/Arrow.cur), auto;
 }
 
+.scroll-down-bar {
+    cursor: url(https://cdn.jsdelivr.net/gh/EmoryHuang/BlogBeautify@1.5/Hand.cur), auto;
+}
+
 /*a标签*/
 
 a:hover {
