@@ -53,7 +53,8 @@ img.vimg:hover {
 	color: #fff;
 	line-height: 13px;
 	background-color: #4D4D4D;
-  margin-bottom: 5px;
+  	margin-bottom: 5px;
+	box-shadow: 0px 0px 5px #3f3f3f
 }
 .github-badge .badge-subject {
 	display: inline-block;
